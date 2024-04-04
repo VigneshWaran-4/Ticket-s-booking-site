@@ -1,0 +1,137 @@
+/* Styles for your ticket booking website */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.pexels.com/photos/1546901/pexels-photo-1546901.jpeg?auto=compress&cs=tinysrgb&w=600'); /* Replace 'background.jpg' with your image file path */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.7); /* Adding opacity to the header background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Adding opacity to section backgrounds */
+    padding: 20px;
+    border-radius: 10px;
+}
+.header-bg {
+    background-image: url('https://images.pexels.com/photos/1436697/pexels-photo-1436697.jpeg?auto=compress&cs=tinysrgb&w=600');    
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  .language-selector {
+    float: right;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .search {
+    margin-bottom: 20px;
+  }
+  
+  .movie-list {
+    margin-bottom: 20px;
+  }
+  
+  .payment {
+    border: 1px solid whitesmoke;
+    padding: 20px;
+  }
+  
+  .payment label {
+    margin-right: 10px;
+  }
+  .carousel {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-inner {
+    display: flex;
+  }
+  
+  .carousel-item {
+    flex: 0 0 auto;
+    margin-right: 20px; /* Adjust as needed */
+  }
+  
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: auto;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-image: none; 
+  }
+  .seat-map {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); 
+    grid-gap: 5px;
+  }
+  
+  .seat {
+    width: 30px;
+    height: 30px;
+    background-color: gainsboro;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .seat.selected {
+    background-color: green; /* Change color for selected seats */
+  }
+  .pay-now-button {
+    background-color: rgb(0, 110, 255); 
+    color: whitesmoke; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius:5px;
+    cursor: pointer;
+  }
